@@ -12,14 +12,14 @@ int main() {
 	}
 	cout <<"first line : "<< *it << endl;
 
-	//visual studio Ö§³ÖC++17 
+	//visual studio æ”¯æŒC++17 
 	/*
-	µ÷ÊÔ->ÊôÐÔ->C/C++->ÓïÑÔ->C++ÓïÑÔ±ê×¼->[Ñ¡ÔñC++2017]
+	è°ƒè¯•->å±žæ€§->C/C++->è¯­è¨€->C++è¯­è¨€æ ‡å‡†->[é€‰æ‹©C++2017]
 	*/
 	if (const vector<int>::iterator it = find(v.begin(), v.end(), 4);it != v.end()) {
 		*it = 9;
 		cout << "first line : " << *it << endl;
-		//Õâ¸öitµÄÉúÃüÖÜÆÚÔÚ if ÖÐ
+		//è¿™ä¸ªitçš„ç”Ÿå‘½å‘¨æœŸåœ¨ if ä¸­
 	}
 	
 

@@ -4,11 +4,11 @@ using namespace std;
 std::tuple<int, double, string> f() {
 
 	return make_tuple(1, 2.2, "oops!");
-}//Ê¹ÓÃtuple¹¹ÔìÒ»¸öÔª×é , ½ø¶øÄÒÀ¨¶à¸ö·µ»ØÖµ
+}//ä½¿ç”¨tupleæ„é€ ä¸€ä¸ªå…ƒç»„ , è¿›è€Œå›Šæ‹¬å¤šä¸ªè¿”å›å€¼
 
 int main() {
 
-	auto [a, b, c] = f(); //auto  ÀàĞÍÍÆµ¼
+	auto [a, b, c] = f(); //auto  ç±»å‹æ¨å¯¼
 
 	cout << a << " " << b << " " << c << endl;
 
