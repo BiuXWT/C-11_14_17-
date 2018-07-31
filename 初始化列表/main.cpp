@@ -1,5 +1,6 @@
 #include<iostream>
 #include<vector>
+#include<initializer_list>
 
 
 class Foo	

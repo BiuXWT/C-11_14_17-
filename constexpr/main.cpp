@@ -13,5 +13,11 @@ constexpr int len_foo_constexpr() {
 
 int main() {
 
+	int tmp = len_foo();
+	cout << tmp << endl;
+	tmp = len_foo_constexpr();
+	cout << tmp << endl;
+
+	system("pause");
 	return 0;
 }

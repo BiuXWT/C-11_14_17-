@@ -1,6 +1,8 @@
 #include<iostream>
 #include<vector>
+#include<map>
 #include<algorithm>
+#include<string>
 using namespace std;
 
 
@@ -47,6 +49,16 @@ int main() {
 	cout << "=======\n";
 	for (auto element : vec) {
 		cout << element << endl;
+	}
+
+
+	cout << "++++++++++++" << endl;
+
+	map<int, string> m = { make_pair(1,"a"),make_pair(2,"b"),make_pair(3,"c"),make_pair(4,"d") };
+
+	for (auto element:m)
+	{
+		cout << element.first << " " << element.second << endl;
 	}
 	system("pause");
 	return 0;
