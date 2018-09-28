@@ -4,6 +4,7 @@
 
 using namespace std;
 
+#if 0
 int main() {
 	vector<int> v = { 1,2,3,4,5 };
 	const vector<int>::iterator it = find(v.begin(), v.end(), 2);
@@ -21,11 +22,24 @@ int main() {
 		cout << "first line : " << *it << endl;
 		//这个it的生命周期在 if 中
 	}
-	
 
 	system("pause");
 
 	return 0;
+}
+#endif
 
+#if 1
+
+int main(int argc, char** argv)
+{
+	vector<int> v = { 1,2,3,4,5 };
+
+	if (vector<int>::iterator it=find(v.begin(),v.end(),3);it!=v.end())
+	{
+		cout << *it << endl;
+	}
 
 }
+
+#endif

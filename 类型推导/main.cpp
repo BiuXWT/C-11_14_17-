@@ -1,4 +1,4 @@
-#include<iostream>
+﻿#include<iostream>
 #include<string>
 #include<initializer_list>
 #include<vector>
@@ -36,13 +36,14 @@ auto var2 = 2;
 auto var3 = 3;
 decltype(var3 + var1) var4;
 
+#if 0
 template<typename T,typename U>
 decltype(t+u) add(T t, U u){
 	return t + u;
 }
 //但事实上这样的写法并不能通过编译。
 //这是因为在编译器读到 decltype(x+y) 时， x 和 y 尚未被定义
-
+#endif
 
 
 template<typename T, typename U>
