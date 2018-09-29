@@ -22,10 +22,11 @@ private:
 template<typename T>
 MyClass<T>::MyClass()
 {
+	cout << "MyClass()" << endl;
 	m_map = { make_pair(1,"a"),make_pair(2,"b") };
 	for (auto element : m_map)
 	{
-		cout << element.first << endl << element.second << endl;
+		cout << element.first << "  " << element.second << endl;
 	}
 }
 

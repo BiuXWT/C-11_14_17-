@@ -35,11 +35,13 @@ int main(int argc, char** argv)
 {
 	vector<int> v = { 1,2,3,4,5 };
 
-	if (vector<int>::iterator it=find(v.begin(),v.end(),3);it!=v.end())
+	if (auto it=find(v.begin(),v.end(),3);it!=v.end())
 	{
 		cout << *it << endl;
 	}
 
+	system("pause");
+	return 0;
 }
 
 #endif

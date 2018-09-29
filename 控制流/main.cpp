@@ -6,8 +6,8 @@
 using namespace std;
 
 
-//#define IF_CONSTEXPR
-#define RANGE_BASED_FOR_LOOP
+//#define IF_CONSTEXPR             //使代码在编译时完成判断
+#define RANGE_BASED_FOR_LOOP	 //区间迭代 , for(auto idx : range)  idx = range[0]~range[n]
 
 #if defined(IF_CONSTEXPR)
 
@@ -40,14 +40,14 @@ int main() {
 	{
 		*it = 4;
 	}
-	for (auto element : vec) {
+	for (auto element : vec) {//read only
 		cout << element << endl;
 	}
-	for (auto &element : vec) {
+	for (auto &element : vec) {//writeable
 		element += 1;
 	}
 	cout << "=======\n";
-	for (auto element : vec) {
+	for (auto element : vec) {//read only
 		cout << element << endl;
 	}
 
