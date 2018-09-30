@@ -13,6 +13,7 @@ int foo2(int a, int b, int c) {
 	cout<<a<<"  " <<b<<"  "<<c<<endl;
 	return 0;
 }
+
 int param_bind()
 {
 	//把参数1,2绑定到函数foo2上 , 并对第一个参数进行占位

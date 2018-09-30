@@ -20,10 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{40031220-7265-459C-BD6C-E6B164020819}</ProjectGuid>
-    <RootNamespace>函数对象包装器</RootNamespace>
+    <ProjectGuid>{D35211AE-A055-4991-83D3-4793A07F2781}</ProjectGuid>
+    <RootNamespace>右值引用</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
-    <ProjectName>函数容器</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

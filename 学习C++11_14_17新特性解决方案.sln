@@ -23,7 +23,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lambda表达式", "lambda�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "面向对象", "面向对象\面向对象.vcxproj", "{7A2EF3EC-EA2C-4C53-AD60-85875723B787}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "函数对象包装器", "函数对象包装器\函数对象包装器.vcxproj", "{40031220-7265-459C-BD6C-E6B164020819}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "函数容器", "函数对象包装器\函数对象包装器.vcxproj", "{40031220-7265-459C-BD6C-E6B164020819}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "右值引用", "右值引用\右值引用.vcxproj", "{D35211AE-A055-4991-83D3-4793A07F2781}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -121,6 +123,14 @@ Global
 		{40031220-7265-459C-BD6C-E6B164020819}.Release|x64.Build.0 = Release|x64
 		{40031220-7265-459C-BD6C-E6B164020819}.Release|x86.ActiveCfg = Release|Win32
 		{40031220-7265-459C-BD6C-E6B164020819}.Release|x86.Build.0 = Release|Win32
+		{D35211AE-A055-4991-83D3-4793A07F2781}.Debug|x64.ActiveCfg = Debug|x64
+		{D35211AE-A055-4991-83D3-4793A07F2781}.Debug|x64.Build.0 = Debug|x64
+		{D35211AE-A055-4991-83D3-4793A07F2781}.Debug|x86.ActiveCfg = Debug|Win32
+		{D35211AE-A055-4991-83D3-4793A07F2781}.Debug|x86.Build.0 = Debug|Win32
+		{D35211AE-A055-4991-83D3-4793A07F2781}.Release|x64.ActiveCfg = Release|x64
+		{D35211AE-A055-4991-83D3-4793A07F2781}.Release|x64.Build.0 = Release|x64
+		{D35211AE-A055-4991-83D3-4793A07F2781}.Release|x86.ActiveCfg = Release|Win32
+		{D35211AE-A055-4991-83D3-4793A07F2781}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
