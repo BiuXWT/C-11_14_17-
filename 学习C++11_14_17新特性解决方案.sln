@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "函数容器", "函数对�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "右值引用", "右值引用\右值引用.vcxproj", "{D35211AE-A055-4991-83D3-4793A07F2781}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "array容器", "array容器\array容器.vcxproj", "{F12E5D61-6CAD-4A9E-A310-0A6AD335DDFA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -131,6 +133,14 @@ Global
 		{D35211AE-A055-4991-83D3-4793A07F2781}.Release|x64.Build.0 = Release|x64
 		{D35211AE-A055-4991-83D3-4793A07F2781}.Release|x86.ActiveCfg = Release|Win32
 		{D35211AE-A055-4991-83D3-4793A07F2781}.Release|x86.Build.0 = Release|Win32
+		{F12E5D61-6CAD-4A9E-A310-0A6AD335DDFA}.Debug|x64.ActiveCfg = Debug|x64
+		{F12E5D61-6CAD-4A9E-A310-0A6AD335DDFA}.Debug|x64.Build.0 = Debug|x64
+		{F12E5D61-6CAD-4A9E-A310-0A6AD335DDFA}.Debug|x86.ActiveCfg = Debug|Win32
+		{F12E5D61-6CAD-4A9E-A310-0A6AD335DDFA}.Debug|x86.Build.0 = Debug|Win32
+		{F12E5D61-6CAD-4A9E-A310-0A6AD335DDFA}.Release|x64.ActiveCfg = Release|x64
+		{F12E5D61-6CAD-4A9E-A310-0A6AD335DDFA}.Release|x64.Build.0 = Release|x64
+		{F12E5D61-6CAD-4A9E-A310-0A6AD335DDFA}.Release|x86.ActiveCfg = Release|Win32
+		{F12E5D61-6CAD-4A9E-A310-0A6AD335DDFA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
